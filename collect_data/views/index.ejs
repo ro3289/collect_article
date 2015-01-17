@@ -1,0 +1,66 @@
+<h1><%= title %></h1>
+<form action="/save" method="post" class="form-inline" style="font-size: 20px;">
+  <h3>文章資訊</h3><hr>
+  <p>
+    <label>文章ID：</label><input type="text" name="ID">
+    <label>課程名稱：</label><input type="text" name="課程名稱">
+    <label>授課教師：</label> <input type="text" name="授課教師">
+    <button type="submit" class="btn btn-primary">儲存</button>
+  </p>
+  <% for (var i = 0, h = 0; i < features.length; i++, h++) { %>
+
+  <% if (features[i][0].charAt(0) === '#') { %> <h3><%= features[i][0].substring(1) %></h3><hr><p> <% h = 0; continue;}%>
+    <!-- break line -->
+    <% if (h % 5 === 0) { %> <p> <% } %> 
+      
+      <!-- label -->
+      <label><%= features[i][0] %>：</label>
+
+      <% if (features[i].length === 1) { %> 
+        <input type="text" name="<%= features[i][0] %>"> 
+      <% } else { %>
+        <select name="<%= features[i][0] %>" <% if (features[i][0].charAt(0) === '*') {%> multiple="multiple" class="multiselect"<% } %>>
+          <!-- Default option -->
+          <option value=""></option>
+          <% for (var j = 1; j < features[i].length; j++) { %> 
+            <option value="<%= features[i][j] %>" ><%= features[i][j] %></option>
+          <% } %>
+        </select>
+      <% } %>
+    <% if (h % 5 === 4) { %> </p> <% } %> 
+  <% } %>
+</form>
+
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+
+<link rel="stylesheet" href="/chosen/chosen.css" />
+<script src="/chosen/chosen.jquery.js"></script>
+
+<link rel="stylesheet" href="/select2/select2.min.css" />
+<script src="/select2/select2.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("*").css({'padding-right':'15px', 'padding-left':'10px'});
+    $("body").css('margin-left','20px');
+    $("h1").css('margin-bottom','15px');
+    $("h3").css({'margin-bottom':'15px'});
+    $("p").css('margin-bottom','10px');
+    $("input").addClass('form-control input-sm');
+    $("input").css({'font-size':'18px','width':'150'});
+    $("label").addClass('form-label');
+   // $("select").addClass('form-control input-sm');
+   // $("select").css({'font-weight':'bold','font-size':'16px'});
+	$("select").removeClass('form-control input-sm');
+    $("select").select2({minimumResultsForSearch: 99});
+  });
+</script>
+

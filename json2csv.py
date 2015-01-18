@@ -44,22 +44,17 @@ for line in article:
 # write new article file to csv
 f = unicodecsv.writer(open('test.csv', 'wb'), encoding='utf-8')
 article = codecs.open('article.new.dat','r', 'utf-8')
-WRITE_HEADER = True
-header = []
+f.writerow(header) # write header first
+
 for line in article:
   j = json.loads( line.rstrip() )
   row = []
-  for key in j:
-    if key not in header:
-      header.append(key)
+  for key in header:
     if isinstance(j[key], list): 
       seq = '&'.join(j[key])
       row.append(seq.encode('utf-8'))
     else:
       row.append(j[key].encode('utf-8'))
-  if WRITE_HEADER:
-    f.writerow(header)
-    WRITE_HEADER = False
   f.writerow(row)
 
 print 'SUCCESS'

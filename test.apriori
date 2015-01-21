@@ -1,154 +1,124 @@
-items:(上學期), Support: 0.527" 
-items:(通識), Support: 0.577" 
-items:(1), Support: 0.332" 
+items:(課程所屬系所電資), Support: 0.377" 
+items:(課程類別通識), Support: 0.577" 
+items:(覺得是否札實滿扎實的), Support: 0.209" 
+items:(*開課學期下學期), Support: 0.318" 
+items:(*開課學期上學期), Support: 0.414" 
 items:(), Support: 0.995" 
-items:(98), Support: 0.300" 
-items:(不會), Support: 0.336" 
-items:(3), Support: 0.227" 
-items:(5), Support: 0.427" 
-items:(投影片), Support: 0.418" 
-items:(下學期), Support: 0.405" 
-items:(清楚), Support: 0.250" 
-items:(4), Support: 0.200" 
-items:(100), Support: 0.241" 
-items:(2), Support: 0.559" 
-items:(99), Support: 0.482" 
-items:(滿扎實的), Support: 0.209" 
-items:(會), Support: 0.368" 
-items:(會,上學期), Support: 0.227" 
-items:(會,投影片), Support: 0.205" 
-items:(,滿扎實的), Support: 0.209" 
-items:(2,不會), Support: 0.250" 
-items:(,清楚), Support: 0.250" 
-items:(2,投影片), Support: 0.227" 
-items:(5,投影片), Support: 0.209" 
-items:(投影片,上學期), Support: 0.264" 
-items:(會,2), Support: 0.214" 
-items:(,下學期), Support: 0.405" 
-items:(,100), Support: 0.241" 
-items:(98,通識), Support: 0.264" 
-items:(,98), Support: 0.300" 
-items:(會,通識), Support: 0.232" 
-items:(2,5), Support: 0.236" 
-items:(,會), Support: 0.368" 
-items:(通識,下學期), Support: 0.232" 
-items:(,投影片), Support: 0.418" 
-items:(,4), Support: 0.200" 
-items:(通識,投影片), Support: 0.264" 
-items:(99,2), Support: 0.268" 
-items:(5,通識), Support: 0.232" 
-items:(,不會), Support: 0.336" 
-items:(2,下學期), Support: 0.227" 
-items:(,3), Support: 0.227" 
-items:(99,下學期), Support: 0.205" 
-items:(99,通識), Support: 0.295" 
-items:(,99), Support: 0.482" 
-items:(2,通識), Support: 0.318" 
-items:(,5), Support: 0.427" 
-items:(5,上學期), Support: 0.250" 
-items:(99,上學期), Support: 0.273" 
-items:(1,通識), Support: 0.259" 
-items:(,2), Support: 0.559" 
-items:(1,), Support: 0.332" 
-items:(2,上學期), Support: 0.309" 
-items:(,上學期), Support: 0.527" 
-items:(,通識), Support: 0.577" 
-items:(通識,上學期), Support: 0.345" 
-items:(,5,投影片), Support: 0.209" 
-items:(,2,通識), Support: 0.318" 
-items:(1,,通識), Support: 0.259" 
-items:(,2,投影片), Support: 0.227" 
-items:(,會,上學期), Support: 0.227" 
-items:(,通識,投影片), Support: 0.264" 
-items:(,會,投影片), Support: 0.205" 
-items:(99,通識,上學期), Support: 0.200" 
-items:(,99,上學期), Support: 0.273" 
-items:(,5,上學期), Support: 0.250" 
-items:(,通識,下學期), Support: 0.232" 
-items:(,上學期,投影片), Support: 0.264" 
-items:(,2,上學期), Support: 0.309" 
-items:(99,,2), Support: 0.268" 
-items:(,2,下學期), Support: 0.227" 
-items:(,通識,上學期), Support: 0.345" 
-items:(,2,5), Support: 0.236" 
-items:(99,,通識), Support: 0.295" 
-items:(,通識,5), Support: 0.232" 
-items:(,會,2), Support: 0.214" 
-items:(,98,通識), Support: 0.264" 
-items:(,99,下學期), Support: 0.205" 
-items:(,2,不會), Support: 0.250" 
-items:(,會,通識), Support: 0.232" 
-items:(99,,通識,上學期), Support: 0.200" 
-Rule: (會)==>(上學期) Confidence: 0.617
-Rule: (滿扎實的)==>() Confidence: 1.000
-Rule: (不會)==>(2) Confidence: 0.743
-Rule: (清楚)==>() Confidence: 1.000
-Rule: (投影片)==>(上學期) Confidence: 0.630
-Rule: (下學期)==>() Confidence: 1.000
-Rule: (100)==>() Confidence: 1.000
-Rule: (98)==>(通識) Confidence: 0.879
-Rule: (98)==>() Confidence: 1.000
-Rule: (會)==>(通識) Confidence: 0.630
-Rule: (會)==>() Confidence: 1.000
-Rule: (投影片)==>() Confidence: 1.000
-Rule: (4)==>() Confidence: 1.000
-Rule: (投影片)==>(通識) Confidence: 0.630
-Rule: (不會)==>() Confidence: 1.000
-Rule: (3)==>() Confidence: 1.000
-Rule: (99)==>(通識) Confidence: 0.613
-Rule: (99)==>() Confidence: 1.000
-Rule: (5)==>() Confidence: 1.000
-Rule: (1)==>(通識) Confidence: 0.781
-Rule: (2)==>() Confidence: 1.000
-Rule: (1)==>() Confidence: 1.000
-Rule: (上學期)==>() Confidence: 1.000
-Rule: (通識)==>() Confidence: 1.000
-Rule: (上學期)==>(通識) Confidence: 0.655
-Rule: (5,投影片)==>() Confidence: 1.000
-Rule: (2,通識)==>() Confidence: 1.000
-Rule: (1)==>(,通識) Confidence: 0.781
-Rule: (1,)==>(通識) Confidence: 0.781
-Rule: (1,通識)==>() Confidence: 1.000
-Rule: (2,投影片)==>() Confidence: 1.000
-Rule: (會)==>(,上學期) Confidence: 0.617
-Rule: (,會)==>(上學期) Confidence: 0.617
-Rule: (會,上學期)==>() Confidence: 1.000
-Rule: (投影片)==>(,通識) Confidence: 0.630
-Rule: (,投影片)==>(通識) Confidence: 0.630
-Rule: (通識,投影片)==>() Confidence: 1.000
-Rule: (會,投影片)==>() Confidence: 1.000
-Rule: (99,通識)==>(上學期) Confidence: 0.677
-Rule: (99,上學期)==>(通識) Confidence: 0.733
-Rule: (99,上學期)==>() Confidence: 1.000
-Rule: (5,上學期)==>() Confidence: 1.000
-Rule: (通識,下學期)==>() Confidence: 1.000
-Rule: (投影片)==>(,上學期) Confidence: 0.630
-Rule: (,投影片)==>(上學期) Confidence: 0.630
-Rule: (投影片,上學期)==>() Confidence: 1.000
-Rule: (2,上學期)==>() Confidence: 1.000
-Rule: (99,2)==>() Confidence: 1.000
-Rule: (2,下學期)==>() Confidence: 1.000
-Rule: (上學期)==>(,通識) Confidence: 0.655
-Rule: (,上學期)==>(通識) Confidence: 0.655
-Rule: (通識,上學期)==>() Confidence: 1.000
-Rule: (2,5)==>() Confidence: 1.000
-Rule: (99)==>(,通識) Confidence: 0.613
-Rule: (99,)==>(通識) Confidence: 0.613
-Rule: (99,通識)==>() Confidence: 1.000
-Rule: (5,通識)==>() Confidence: 1.000
-Rule: (會,2)==>() Confidence: 1.000
-Rule: (98)==>(,通識) Confidence: 0.879
-Rule: (,98)==>(通識) Confidence: 0.879
-Rule: (98,通識)==>() Confidence: 1.000
-Rule: (99,下學期)==>() Confidence: 1.000
-Rule: (不會)==>(,2) Confidence: 0.743
-Rule: (,不會)==>(2) Confidence: 0.743
-Rule: (2,不會)==>() Confidence: 1.000
-Rule: (會)==>(,通識) Confidence: 0.630
-Rule: (,會)==>(通識) Confidence: 0.630
-Rule: (會,通識)==>() Confidence: 1.000
-Rule: (99,通識)==>(,上學期) Confidence: 0.677
-Rule: (99,上學期)==>(,通識) Confidence: 0.733
-Rule: (99,,通識)==>(上學期) Confidence: 0.677
-Rule: (99,,上學期)==>(通識) Confidence: 0.733
-Rule: (99,通識,上學期)==>() Confidence: 1.000
+items:(開課年度99), Support: 0.482" 
+items:(報告次數1), Support: 0.218" 
+items:(*上課工具投影片), Support: 0.418" 
+items:(作者背景科系電資), Support: 0.350" 
+items:(會不會點名會), Support: 0.205" 
+items:(注重出席率不會), Support: 0.259" 
+items:(會不會點名不會), Support: 0.223" 
+items:(觀念講解清楚), Support: 0.250" 
+items:(覺得扎實(總和)扎實), Support: 0.327" 
+items:(開課年度98), Support: 0.300" 
+items:(期考次數2), Support: 0.423" 
+items:(推薦指數5), Support: 0.391" 
+items:(,報告次數1), Support: 0.218" 
+items:(,*上課工具投影片), Support: 0.418" 
+items:(開課年度99,期考次數2), Support: 0.205" 
+items:(,作者背景科系電資), Support: 0.350" 
+items:(,推薦指數5), Support: 0.391" 
+items:(推薦指數5,課程類別通識), Support: 0.218" 
+items:(,期考次數2), Support: 0.423" 
+items:(期考次數2,課程所屬系所電資), Support: 0.214" 
+items:(,會不會點名會), Support: 0.205" 
+items:(,課程類別通識), Support: 0.577" 
+items:(,開課年度99), Support: 0.482" 
+items:(覺得扎實(總和)扎實,覺得是否札實滿扎實的), Support: 0.209" 
+items:(作者背景科系電資,課程所屬系所電資), Support: 0.341" 
+items:(開課年度98,課程類別通識), Support: 0.264" 
+items:(*開課學期下學期,課程類別通識), Support: 0.232" 
+items:(開課年度99,課程類別通識), Support: 0.295" 
+items:(,觀念講解清楚), Support: 0.250" 
+items:(,*開課學期下學期), Support: 0.318" 
+items:(,覺得扎實(總和)扎實), Support: 0.327" 
+items:(,開課年度98), Support: 0.300" 
+items:(,會不會點名不會), Support: 0.223" 
+items:(開課年度99,*開課學期上學期), Support: 0.268" 
+items:(課程類別通識,*上課工具投影片), Support: 0.264" 
+items:(*開課學期上學期,課程類別通識), Support: 0.345" 
+items:(,課程所屬系所電資), Support: 0.377" 
+items:(,注重出席率不會), Support: 0.259" 
+items:(,覺得是否札實滿扎實的), Support: 0.209" 
+items:(,*開課學期上學期), Support: 0.414" 
+items:(,覺得扎實(總和)扎實,覺得是否札實滿扎實的), Support: 0.209" 
+items:(,開課年度98,課程類別通識), Support: 0.264" 
+items:(,期考次數2,課程所屬系所電資), Support: 0.214" 
+items:(,推薦指數5,課程類別通識), Support: 0.218" 
+items:(開課年度99,*開課學期上學期,課程類別通識), Support: 0.200" 
+items:(,開課年度99,期考次數2), Support: 0.205" 
+items:(,*開課學期下學期,課程類別通識), Support: 0.232" 
+items:(,*開課學期上學期,課程類別通識), Support: 0.345" 
+items:(,開課年度99,*開課學期上學期), Support: 0.268" 
+items:(,開課年度99,課程類別通識), Support: 0.295" 
+items:(,課程類別通識,*上課工具投影片), Support: 0.264" 
+items:(,作者背景科系電資,課程所屬系所電資), Support: 0.341" 
+items:(,開課年度99,*開課學期上學期,課程類別通識), Support: 0.200" 
+Rule: (報告次數1)==>() Confidence: 1.000
+Rule: (*上課工具投影片)==>() Confidence: 1.000
+Rule: (作者背景科系電資)==>() Confidence: 1.000
+Rule: (推薦指數5)==>() Confidence: 1.000
+Rule: (期考次數2)==>() Confidence: 1.000
+Rule: (會不會點名會)==>() Confidence: 1.000
+Rule: (課程類別通識)==>() Confidence: 1.000
+Rule: (開課年度99)==>() Confidence: 1.000
+Rule: (覺得扎實(總和)扎實)==>(覺得是否札實滿扎實的) Confidence: 0.639
+Rule: (覺得是否札實滿扎實的)==>(覺得扎實(總和)扎實) Confidence: 1.000
+Rule: (作者背景科系電資)==>(課程所屬系所電資) Confidence: 0.974
+Rule: (課程所屬系所電資)==>(作者背景科系電資) Confidence: 0.904
+Rule: (開課年度98)==>(課程類別通識) Confidence: 0.879
+Rule: (*開課學期下學期)==>(課程類別通識) Confidence: 0.729
+Rule: (開課年度99)==>(課程類別通識) Confidence: 0.613
+Rule: (觀念講解清楚)==>() Confidence: 1.000
+Rule: (*開課學期下學期)==>() Confidence: 1.000
+Rule: (覺得扎實(總和)扎實)==>() Confidence: 1.000
+Rule: (開課年度98)==>() Confidence: 1.000
+Rule: (會不會點名不會)==>() Confidence: 1.000
+Rule: (*開課學期上學期)==>(開課年度99) Confidence: 0.648
+Rule: (*上課工具投影片)==>(課程類別通識) Confidence: 0.630
+Rule: (*開課學期上學期)==>(課程類別通識) Confidence: 0.835
+Rule: (課程所屬系所電資)==>() Confidence: 1.000
+Rule: (注重出席率不會)==>() Confidence: 1.000
+Rule: (覺得是否札實滿扎實的)==>() Confidence: 1.000
+Rule: (*開課學期上學期)==>() Confidence: 1.000
+Rule: (覺得扎實(總和)扎實)==>(,覺得是否札實滿扎實的) Confidence: 0.639
+Rule: (覺得是否札實滿扎實的)==>(,覺得扎實(總和)扎實) Confidence: 1.000
+Rule: (,覺得扎實(總和)扎實)==>(覺得是否札實滿扎實的) Confidence: 0.639
+Rule: (,覺得是否札實滿扎實的)==>(覺得扎實(總和)扎實) Confidence: 1.000
+Rule: (覺得扎實(總和)扎實,覺得是否札實滿扎實的)==>() Confidence: 1.000
+Rule: (開課年度98)==>(,課程類別通識) Confidence: 0.879
+Rule: (,開課年度98)==>(課程類別通識) Confidence: 0.879
+Rule: (開課年度98,課程類別通識)==>() Confidence: 1.000
+Rule: (期考次數2,課程所屬系所電資)==>() Confidence: 1.000
+Rule: (推薦指數5,課程類別通識)==>() Confidence: 1.000
+Rule: (開課年度99,*開課學期上學期)==>(課程類別通識) Confidence: 0.746
+Rule: (開課年度99,課程類別通識)==>(*開課學期上學期) Confidence: 0.677
+Rule: (開課年度99,期考次數2)==>() Confidence: 1.000
+Rule: (*開課學期下學期)==>(,課程類別通識) Confidence: 0.729
+Rule: (,*開課學期下學期)==>(課程類別通識) Confidence: 0.729
+Rule: (*開課學期下學期,課程類別通識)==>() Confidence: 1.000
+Rule: (*開課學期上學期)==>(,課程類別通識) Confidence: 0.835
+Rule: (,*開課學期上學期)==>(課程類別通識) Confidence: 0.835
+Rule: (*開課學期上學期,課程類別通識)==>() Confidence: 1.000
+Rule: (*開課學期上學期)==>(,開課年度99) Confidence: 0.648
+Rule: (,*開課學期上學期)==>(開課年度99) Confidence: 0.648
+Rule: (開課年度99,*開課學期上學期)==>() Confidence: 1.000
+Rule: (開課年度99)==>(,課程類別通識) Confidence: 0.613
+Rule: (,開課年度99)==>(課程類別通識) Confidence: 0.613
+Rule: (開課年度99,課程類別通識)==>() Confidence: 1.000
+Rule: (*上課工具投影片)==>(,課程類別通識) Confidence: 0.630
+Rule: (,*上課工具投影片)==>(課程類別通識) Confidence: 0.630
+Rule: (課程類別通識,*上課工具投影片)==>() Confidence: 1.000
+Rule: (作者背景科系電資)==>(,課程所屬系所電資) Confidence: 0.974
+Rule: (課程所屬系所電資)==>(,作者背景科系電資) Confidence: 0.904
+Rule: (,作者背景科系電資)==>(課程所屬系所電資) Confidence: 0.974
+Rule: (,課程所屬系所電資)==>(作者背景科系電資) Confidence: 0.904
+Rule: (作者背景科系電資,課程所屬系所電資)==>() Confidence: 1.000
+Rule: (開課年度99,*開課學期上學期)==>(,課程類別通識) Confidence: 0.746
+Rule: (開課年度99,課程類別通識)==>(,*開課學期上學期) Confidence: 0.677
+Rule: (,開課年度99,*開課學期上學期)==>(課程類別通識) Confidence: 0.746
+Rule: (,開課年度99,課程類別通識)==>(*開課學期上學期) Confidence: 0.677
+Rule: (開課年度99,*開課學期上學期,課程類別通識)==>() Confidence: 1.000

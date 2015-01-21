@@ -1,0 +1,154 @@
+items:(上學期), Support: 0.527" 
+items:(通識), Support: 0.577" 
+items:(1), Support: 0.332" 
+items:(), Support: 0.995" 
+items:(98), Support: 0.300" 
+items:(不會), Support: 0.336" 
+items:(3), Support: 0.227" 
+items:(5), Support: 0.427" 
+items:(投影片), Support: 0.418" 
+items:(下學期), Support: 0.405" 
+items:(清楚), Support: 0.250" 
+items:(4), Support: 0.200" 
+items:(100), Support: 0.241" 
+items:(2), Support: 0.559" 
+items:(99), Support: 0.482" 
+items:(滿扎實的), Support: 0.209" 
+items:(會), Support: 0.368" 
+items:(會,上學期), Support: 0.227" 
+items:(會,投影片), Support: 0.205" 
+items:(,滿扎實的), Support: 0.209" 
+items:(2,不會), Support: 0.250" 
+items:(,清楚), Support: 0.250" 
+items:(2,投影片), Support: 0.227" 
+items:(5,投影片), Support: 0.209" 
+items:(投影片,上學期), Support: 0.264" 
+items:(會,2), Support: 0.214" 
+items:(,下學期), Support: 0.405" 
+items:(,100), Support: 0.241" 
+items:(98,通識), Support: 0.264" 
+items:(,98), Support: 0.300" 
+items:(會,通識), Support: 0.232" 
+items:(2,5), Support: 0.236" 
+items:(,會), Support: 0.368" 
+items:(通識,下學期), Support: 0.232" 
+items:(,投影片), Support: 0.418" 
+items:(,4), Support: 0.200" 
+items:(通識,投影片), Support: 0.264" 
+items:(99,2), Support: 0.268" 
+items:(5,通識), Support: 0.232" 
+items:(,不會), Support: 0.336" 
+items:(2,下學期), Support: 0.227" 
+items:(,3), Support: 0.227" 
+items:(99,下學期), Support: 0.205" 
+items:(99,通識), Support: 0.295" 
+items:(,99), Support: 0.482" 
+items:(2,通識), Support: 0.318" 
+items:(,5), Support: 0.427" 
+items:(5,上學期), Support: 0.250" 
+items:(99,上學期), Support: 0.273" 
+items:(1,通識), Support: 0.259" 
+items:(,2), Support: 0.559" 
+items:(1,), Support: 0.332" 
+items:(2,上學期), Support: 0.309" 
+items:(,上學期), Support: 0.527" 
+items:(,通識), Support: 0.577" 
+items:(通識,上學期), Support: 0.345" 
+items:(,5,投影片), Support: 0.209" 
+items:(,2,通識), Support: 0.318" 
+items:(1,,通識), Support: 0.259" 
+items:(,2,投影片), Support: 0.227" 
+items:(,會,上學期), Support: 0.227" 
+items:(,通識,投影片), Support: 0.264" 
+items:(,會,投影片), Support: 0.205" 
+items:(99,通識,上學期), Support: 0.200" 
+items:(,99,上學期), Support: 0.273" 
+items:(,5,上學期), Support: 0.250" 
+items:(,通識,下學期), Support: 0.232" 
+items:(,上學期,投影片), Support: 0.264" 
+items:(,2,上學期), Support: 0.309" 
+items:(99,,2), Support: 0.268" 
+items:(,2,下學期), Support: 0.227" 
+items:(,通識,上學期), Support: 0.345" 
+items:(,2,5), Support: 0.236" 
+items:(99,,通識), Support: 0.295" 
+items:(,通識,5), Support: 0.232" 
+items:(,會,2), Support: 0.214" 
+items:(,98,通識), Support: 0.264" 
+items:(,99,下學期), Support: 0.205" 
+items:(,2,不會), Support: 0.250" 
+items:(,會,通識), Support: 0.232" 
+items:(99,,通識,上學期), Support: 0.200" 
+Rule: (會)==>(上學期) Confidence: 0.617
+Rule: (滿扎實的)==>() Confidence: 1.000
+Rule: (不會)==>(2) Confidence: 0.743
+Rule: (清楚)==>() Confidence: 1.000
+Rule: (投影片)==>(上學期) Confidence: 0.630
+Rule: (下學期)==>() Confidence: 1.000
+Rule: (100)==>() Confidence: 1.000
+Rule: (98)==>(通識) Confidence: 0.879
+Rule: (98)==>() Confidence: 1.000
+Rule: (會)==>(通識) Confidence: 0.630
+Rule: (會)==>() Confidence: 1.000
+Rule: (投影片)==>() Confidence: 1.000
+Rule: (4)==>() Confidence: 1.000
+Rule: (投影片)==>(通識) Confidence: 0.630
+Rule: (不會)==>() Confidence: 1.000
+Rule: (3)==>() Confidence: 1.000
+Rule: (99)==>(通識) Confidence: 0.613
+Rule: (99)==>() Confidence: 1.000
+Rule: (5)==>() Confidence: 1.000
+Rule: (1)==>(通識) Confidence: 0.781
+Rule: (2)==>() Confidence: 1.000
+Rule: (1)==>() Confidence: 1.000
+Rule: (上學期)==>() Confidence: 1.000
+Rule: (通識)==>() Confidence: 1.000
+Rule: (上學期)==>(通識) Confidence: 0.655
+Rule: (5,投影片)==>() Confidence: 1.000
+Rule: (2,通識)==>() Confidence: 1.000
+Rule: (1)==>(,通識) Confidence: 0.781
+Rule: (1,)==>(通識) Confidence: 0.781
+Rule: (1,通識)==>() Confidence: 1.000
+Rule: (2,投影片)==>() Confidence: 1.000
+Rule: (會)==>(,上學期) Confidence: 0.617
+Rule: (,會)==>(上學期) Confidence: 0.617
+Rule: (會,上學期)==>() Confidence: 1.000
+Rule: (投影片)==>(,通識) Confidence: 0.630
+Rule: (,投影片)==>(通識) Confidence: 0.630
+Rule: (通識,投影片)==>() Confidence: 1.000
+Rule: (會,投影片)==>() Confidence: 1.000
+Rule: (99,通識)==>(上學期) Confidence: 0.677
+Rule: (99,上學期)==>(通識) Confidence: 0.733
+Rule: (99,上學期)==>() Confidence: 1.000
+Rule: (5,上學期)==>() Confidence: 1.000
+Rule: (通識,下學期)==>() Confidence: 1.000
+Rule: (投影片)==>(,上學期) Confidence: 0.630
+Rule: (,投影片)==>(上學期) Confidence: 0.630
+Rule: (投影片,上學期)==>() Confidence: 1.000
+Rule: (2,上學期)==>() Confidence: 1.000
+Rule: (99,2)==>() Confidence: 1.000
+Rule: (2,下學期)==>() Confidence: 1.000
+Rule: (上學期)==>(,通識) Confidence: 0.655
+Rule: (,上學期)==>(通識) Confidence: 0.655
+Rule: (通識,上學期)==>() Confidence: 1.000
+Rule: (2,5)==>() Confidence: 1.000
+Rule: (99)==>(,通識) Confidence: 0.613
+Rule: (99,)==>(通識) Confidence: 0.613
+Rule: (99,通識)==>() Confidence: 1.000
+Rule: (5,通識)==>() Confidence: 1.000
+Rule: (會,2)==>() Confidence: 1.000
+Rule: (98)==>(,通識) Confidence: 0.879
+Rule: (,98)==>(通識) Confidence: 0.879
+Rule: (98,通識)==>() Confidence: 1.000
+Rule: (99,下學期)==>() Confidence: 1.000
+Rule: (不會)==>(,2) Confidence: 0.743
+Rule: (,不會)==>(2) Confidence: 0.743
+Rule: (2,不會)==>() Confidence: 1.000
+Rule: (會)==>(,通識) Confidence: 0.630
+Rule: (,會)==>(通識) Confidence: 0.630
+Rule: (會,通識)==>() Confidence: 1.000
+Rule: (99,通識)==>(,上學期) Confidence: 0.677
+Rule: (99,上學期)==>(,通識) Confidence: 0.733
+Rule: (99,,通識)==>(上學期) Confidence: 0.677
+Rule: (99,,上學期)==>(通識) Confidence: 0.733
+Rule: (99,通識,上學期)==>() Confidence: 1.000
